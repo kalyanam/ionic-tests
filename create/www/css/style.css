@@ -1,0 +1,28 @@
+/* Empty. Add your own CSS if you like */
+.create-question {
+    font-size: 28px;
+}
+
+.create-option {
+    font-size: 20px;
+}
+
+.create-question-card.ng-enter {
+    /*transition:0.5s slideOutUp all;
+    opacity: 0;*/
+    animation: 2s slideInDown ease;
+}
+
+/*.create-question-card.ng-enter-active {
+    opacity: 1;
+}*/
+
+.create-question-card.ng-leave {
+    /*transition:0.5s slideOutUp all;
+    opacity: 1;*/
+    animation: 0.3s slideOutUp ease;
+}
+
+/*.create-question-card.ng-leave-active {
+    opacity: 0;
+}*/
